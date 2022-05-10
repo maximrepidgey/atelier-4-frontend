@@ -1,0 +1,40 @@
+version: "3.7"
+services:
+  frontend:
+    container_name: sphinx-frontend
+    image: steeven9/sa4-sphinx-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    env_file: sh_envfile
+    networks:
+      - sphinx
+  backend:
+    container_name: sphinx-backend
+    image: steeven9/sa4-sphinx-backend
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+    env_file: sh_envfile
+    networks:
+      - sphinx
+  database:
+    container_name: sphinx-database
+    image: postgres
+    restart: always
+    healthcheck:
+      test: pg_isready -d sphinx_smartHut -U sphinx
+      interval: 5s
+      timeout: 10s
+      retries: 10
+    ports:
+      - "5432:5432"
+    env_file: sh_envfile
+    networks:
+      - sphinx
+networks:
+  sphinx:
+    name: sphinx

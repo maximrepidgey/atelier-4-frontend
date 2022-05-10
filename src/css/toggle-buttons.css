@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.temperatureSource {
+    font-family: "Roboto Condensed", Verdana, sans-serif !important;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.90rem !important;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+}

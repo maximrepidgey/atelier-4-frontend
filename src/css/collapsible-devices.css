@@ -1,0 +1,44 @@
+/* Styles specific to devices shown in collapsible panel */
+.device-name {
+    height: 19px;
+    left: 480px;
+    top: 363px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.device-location {
+    height: 16px;
+    left: 480px;
+    top: 383px;
+    width: 100% !important;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.device-type-name {
+    height: 16px;
+    left: 480px;
+    top: 383px;
+    width: 100% !important;
+
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4f4f4f;
+}
+
+.btn-reset {
+    color: #FFFFFF;
+    margin-top: 3px;
+    margin-left: 5px !important;
+    margin-right: -35px !important;
+}

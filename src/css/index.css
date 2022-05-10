@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Custom styles */
+.main-img-background {
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/backgrounds/app/background.svg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+/*
+.main-img img {
+    width: 50%;
+}
+*/
+
+.main-tile {
+    left: 51.67%;
+    right: 12.85%;
+    top: 23.41%;
+    bottom: 58.71%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6vh;
+    line-height: 115.18%;
+    color: #FFFFFF;
+}
+
+
+.content-box {
+    width: calc(70% + 10vmin) !important;
+}

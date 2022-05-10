@@ -1,0 +1,144 @@
+/* modified */
+h2 {
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: calc(1vw + 1vh + 1.5vmin) !important;
+
+    line-height: 115.18% !important;
+    color: #2C2C2C !important;
+}
+
+.btn-primary-circular2 {
+    background: #FFB800 !important;
+    border-radius: 80px !important;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    /* identical to box height */
+    text-align: center !important;
+    text-transform: none !important;
+    color: #580B71 !important;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 45px !important;
+
+    padding: 0 15px 0 15px !important;
+}
+
+/* housepage */
+.informations{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name1{
+    margin-left: 19%;
+}
+
+.device1{
+    margin-left: 35%;
+}
+
+.canvas1{
+    display: flex;
+    justify-content: center;    
+    
+}
+
+.add-btn{
+    position: absolute;
+    top: 18vh;
+    right: 20vw;
+    font-size: 20px !important;
+}
+
+.canvas2{
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.line{
+    border: 2px solid rgb(209, 209, 209);
+    margin: 0px;
+}
+
+.room{
+    height: 90px;
+    display: flex;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.vertical-center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.image{
+    margin-left: 45px;
+}
+
+.image img{
+    height: 40px;
+    width: 40px;
+}
+.room-name{
+    margin-left: 75px;
+    font-size: 22px;
+    width: 38%;
+}
+
+.dev-number{
+    margin-left: 8%;
+    margin-right: 14%;
+    font-size: 22px;
+}
+
+.room-button1, .room-button2 {
+    width: 35px;
+    height: 35px;
+}
+
+.room-button1{
+    margin-left: -3%;
+}
+
+.room-button2{
+    margin-left: 7%;
+}
+
+.rooms-headline {
+    border-bottom: 2px solid rgb(199, 199, 199);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.rooms-content-box {
+    margin: 10vh auto !important;
+    background-color: #FFFFFF !important;
+    color: #2C2C2C !important;
+    width: calc(60% + 10vmin) !important;
+    border-radius: 10px !important;
+    padding: 20px 60px 60px 60px !important;
+}
+
+.room-content-box {
+    margin: 10vh auto !important;
+    background-color: #FFFFFF !important;
+    color: #2C2C2C !important;
+    width: calc(65% + 10vmin) !important;
+    border-radius: 10px !important;
+    padding: 30px 80px 50px 80px !important;
+}
+
+.room-inputs {
+    width: 60%;
+    margin: auto;
+}
+

@@ -1,0 +1,12 @@
+.device-content-box {
+    margin: 10vh auto !important;
+    background-color: #FFFFFF !important;
+    color: #2C2C2C !important;
+    width: calc(40% + 10vmin) !important;
+    border-radius: 10px !important;
+    padding: 30px 80px 50px 80px !important;
+}
+
+.btn-false-disabled {
+    pointer-events: none;
+}

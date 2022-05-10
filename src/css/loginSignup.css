@@ -1,0 +1,53 @@
+.login-box {
+    margin: 10vh auto !important;
+    background-color: #FFFFFF !important;
+    color: #2C2C2C !important;
+    width: calc(50% + 10vmin) !important;
+    border-radius: 10px !important;
+    padding: 30px 80px 50px 80px !important;
+}
+
+.signup-box {
+    margin: 10vh auto !important;
+    background-color: #FFFFFF !important;
+    color: #2C2C2C !important;
+    width: calc(70% + 10vmin) !important;
+    border-radius: 10px !important;
+    padding: 30px 80px 50px 80px !important;
+}
+
+.password-reset-box {
+    margin: 10vh auto !important;
+    background-color: #FFFFFF !important;
+    color: #2C2C2C !important;
+    width: calc(50% + 10vmin) !important;
+    border-radius: 10px !important;
+    padding: 30px 80px 50px 80px !important;
+}
+
+.message-one-line {
+    font-weight: 600;
+    font-size: 14px;
+    max-height: 20px;
+    min-height: 20px;
+}
+
+.message-two-lines {
+    margin: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 14px;
+    max-height: 42px;
+    min-height: 42px;
+}
+
+.forgot-password {
+    font-style: italic;
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+
+}
+
+.top-bottom-margins {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

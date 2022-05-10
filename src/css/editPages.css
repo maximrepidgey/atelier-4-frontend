@@ -1,0 +1,169 @@
+/* modified */
+
+.Handle-btn {
+    margin-left: 2vh !important;
+    margin-right: 2vh !important;
+}
+
+.Handle-btn-primary {
+    background: #FFB800 !important;
+    border-radius: 23px !important;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    /* identical to box height */
+    text-align: center !important;
+    text-transform: none !important;
+    color: #580B71 !important;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 0 50px 0 50px !important;
+}
+
+.Handle-btn-secondary {
+    background: white !important;
+    border-radius: 23px !important;
+    font-family: 'Open Sans', Verdana, sans-serif;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    /* identical to box height */
+    text-align: center !important;
+    text-transform: none !important;
+    color: #580B71 !important;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 0 50px 0 50px !important;
+}
+
+.title {
+    text-align: center;
+}
+
+.Handle-dates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Handle-input {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.mod-width {
+    width: 30%;
+}
+
+.room-edit-content-box {
+    margin: 10vh auto;
+    background-color: #FFFFFF;
+    color: #2C2C2C !important;
+    width: calc(60% + 10vmin);
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+}
+
+.content-box-transparency {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.selector {
+    display: inherit;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: box-shadow .3s, border .3s;
+}
+
+.selectionIconBtn {
+    background-color: transparent;
+    border: 0px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-box-iconSelection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.exitSelectionBtn {
+    margin-left: 95%;
+    border: 0px;
+    background-color: transparent;
+}
+
+.selectionIconBtn img {
+    width: 65px;
+    height: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.roomNameAndIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 0px;
+    background-color: transparent;
+}
+
+.roomNameAndIcon2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 0px;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+}
+
+.roomIcon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.removeBorder {
+    border: 0px;
+    background-color: transparent;
+}
+
+.fixedSizeIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.toPointer {
+    cursor: pointer;
+}
+
+.customization-device-info {
+    margin: 0;
+    padding: 0 !important;
+}

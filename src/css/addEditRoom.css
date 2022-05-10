@@ -1,0 +1,51 @@
+.selectionIconBtn {
+    background-color: transparent;
+    border: 0px;
+    width: 90px;
+    height: 90px;
+    margin: 30px;
+    text-align: center;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-box-iconSelection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.exitSelectionBtn {
+    margin-left: 95%;
+    border: 0px;
+    background-color: transparent;
+}
+
+.selectionIconBtn img {
+    width: 65px;
+    height: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.roomNameAndIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 0px;
+    background-color: transparent;
+}
+
+.removeBorder {
+    border: 0px;
+    background-color: transparent;
+}
+
+.fixedSizeIcon {
+    width: 40px;
+    height: 40px;
+}
