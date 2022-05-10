@@ -587,7 +587,7 @@ yarn.lock
 package-lock.json
 
 # Custom env file
-sh_envfile
+#sh_envfile
 
 ### DB data directory ###
 db_data/
